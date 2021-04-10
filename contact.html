@@ -35,21 +35,31 @@
         <div class="container-fluid">
             <div class="logo">
                 <a href="./index.html">
+                    <img src="img/logo.png" alt="">
                 </a>
             </div>
             <div class="top-social">
-                <a href="#"><i class="fa fa-vk"></i></a>
+                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
                 <a href="#"><i class="fa fa-instagram"></i></a>
             </div>
             <div class="container">
                 <div class="nav-menu">
                     <nav class="mainmenu mobile-menu">
                         <ul>
-                            <li class="active"><a href="./index.html">Главная</a></li>
-                            <li><a href="./about-us.html">О нас</a></li>
-                            <li><a href="./schedule.html">Расписание</a></li>
-                            <li><a href="./gallery.html">Галерея</a></li>
-                            <li><a href="./contact.html">Контакты</a></li>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about-us.html">About us</a></li>
+                            <li><a href="./schedule.html">Schedule</a></li>
+                            <li><a href="./gallery.html">Gallery</a></li>
+                            <li><a href="./blog.html">Blog</a>
+                                <ul class="dropdown">
+                                    <li><a href="./about-us.html">About Us</a></li>
+                                    <li><a href="./blog-single.html">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="active"><a href="./contact.html">Contacts</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -59,153 +69,82 @@
     </header>
     <!-- Header End -->
 
-    <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg spad" data-setbg="img/about-bread.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb-text">
-                        <h2>Расписание</h2>
-                        <div class="breadcrumb-controls">
-                            <a href="#"><i class="fa fa-home"></i> Главная</a>
-                            <span>Расписание</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Map Section Begin -->
+    <div class="contact-map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d188618.51311104256!2d-71.236572!3d42.381647!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1576756626784!5m2!1sen!2sbd"
+            height="530" style="border: 0" allowfullscreen=""></iframe>
+        <div class="map-hover">
+            <h5>New York</h5>
+            <ul>
+                <li>Weekdays: 10.00 - 23.00</li>
+                <li>Saturday: 10.00 - 23.00</li>
+                <li>Sunday: Close</li>
+            </ul>
+            <i class="icon_pin"></i>
         </div>
-    </section>
-    <!-- Breadcrumb End -->
+    </div>
+    <!-- Map Section End -->
 
-    <!-- Class Time Section Begin -->
-    <section class="classtime-section class-time-table spad">
+    <!-- Contact Section Begin -->
+    <section class="contact-section spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="section-title">
-                        <h2>Расписание тренировок</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="timetable-controls">
+                <div class="col-lg-3">
+                    <div class="contact-info">
+                        <h4>Information</h4>
                         <ul>
-                            <li class="active" data-tsfilter="all">Хватов Алексей Игоревич</li>
-                            <li data-tsfilter="crossfit">Чундиров Степан Сергеевич</li>
-                            <li data-tsfilter="lunge">Бунтов Сергей Александрович</li>
+                            <li><i class="fa fa-phone"></i>(12)-100-100-100</li>
+                            <li><i class="fa fa-envelope"></i>Info.colorlib@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="contact-address">
+                        <h4>Address</h4>
+                        <ul>
+                            <li><i class="fa fa-map-marker"></i> Iris Watson, Mary land, United State., New York City
+                            </li>
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="classtime-table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th></th>
-                            <th>Понедельник</th>
-                            <th>Вторник</th>
-                            <th>Среда</th>
-                            <th>Четверг</th>
-                            <th>Пятница</th>
-                            <th>Суббота</th>
-                            <th>Воскресенье</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="workout-time">08.00</td>
-                            
-                            <td></td>
-                            <td class="hover-bg ts-item" data-tsmeta="crossfit">
-                                <span>8.30 - 10.00</span>
-                            </td>
-                            
-                            <td></td>
-                            <td class="hover-bg ts-item" data-tsmeta="lunge">
-                                <span>8.30 - 10.00</span>
-                            </td>
-                            <td></td>
-                            <td class="hover-bg ts-item" data-tsmeta="lunge">
-                                
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="workout-time">12.00</td>
-                            <td></td>
-                            <td class="hover-bg ts-item" data-tsmeta="lunge">
-                               
-                            </td>
-                            <td></td>
-                            <td class="hover-bg ts-item" data-tsmeta="crossfit">
-                                
-                            </td>
-                            <td></td>
-                            <td class="hover-bg ts-item" data-tsmeta="walls">
-                                <span>12.30 - 14.00</span>
-                            </td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td class="workout-time">16.00</td>
-                            <td></td>
-                            <td class="hover-bg ts-item" data-tsmeta="candy">
-                                <span>16.15 - 17.50</span>
-                            </td>
-                            <td></td>
-                            <td class="hover-bg ts-item" data-tsmeta="candy">
-                                <span>16.15 - 17.50</span>
-                            </td>
-                            <td class="hover-bg ts-item" data-tsmeta="ppsr">
-                                <span>16.10 - 17.40</span>
-                            </td>
-                            <td class="hover-bg ts-item" data-tsmeta="murph">
-                                
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="workout-time">18.00</td>
-                            <td class="hover-bg ts-item" data-tsmeta="walls">
-                                <span>18.00 - 18.50</span>
-                            </td>
-                            <td class="hover-bg ts-item" data-tsmeta="ppsr">
-                                <span>18.20 - 19.20</span>
-                            </td>
-                            <td></td>
-                            <td class="hover-bg ts-item" data-tsmeta="chelsea">
-                                <span>18.20 - 19.20</span>
-                            </td>
-                            <td></td>
-                            <td class="hover-bg ts-item" data-tsmeta="annie">
-                                
-                            </td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td class="workout-time">20.00</td>
-                            <td class="hover-bg ts-item" data-tsmeta="lunge">
-                            </td>
-                            <td class="hover-bg ts-item" data-tsmeta="walls">
-                                
-                            </td>
-                            <td class="hover-bg ts-item" data-tsmeta="walls">
-                               
-                            </td>
-                            <td></td>
-                            <td class="hover-bg ts-item" data-tsmeta="crossfit">
-                               
-                            </td>
-                            <td></td>
-                            <td class="hover-bg ts-item" data-tsmeta="crossfit">
-                               
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="col-lg-8 offset-lg-1">
+                    <div class="contact-form">
+                        <h4>Get in touch</h4>
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Name">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Email">
+                                </div>
+                                <div class="col-lg-12">
+                                    <textarea placeholder="Message"></textarea>
+                                    <button type="submit" class="c-btn">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- Class Time Section End -->
+    <!-- Contact Section End -->
+
+    <!-- Cta Section Begin -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="cta-text">
+                        <h3>GeT Started Today</h3>
+                        <p>New student special! $30 unlimited Gym for the first week anh 50% of our member!</p>
+                    </div>
+                    <a href="#" class="primary-btn cta-btn">book now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cta Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer-section">
